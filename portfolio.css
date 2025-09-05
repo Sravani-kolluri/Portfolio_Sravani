@@ -1,0 +1,239 @@
+.header{
+    display: flex;
+    
+    justify-content: space-evenly;
+   
+}
+body{
+    color: aliceblue;
+    background-color:#0D1117;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name{
+    padding-right: 20rem;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.photo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite; */
+}
+#img{
+    height: 400px;
+    width: 400px;  
+    border-radius: 50%;
+    border:2px solid blue;
+}
+#intro{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 30px;
+    font-size: 70px;
+}
+#inf{
+    padding-left: 100px;
+    justify-content: center;
+    justify-content: space-between;
+}
+div{
+    justify-content: space-evenly;
+}
+#resume{
+    background-color:lawngreen;
+    height: 55px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 15%;
+}
+#resume a{
+    text-decoration: none;
+}
+.about p{
+   /* margin: 0px 0px 100px 100px; */
+   margin-left: 100px;
+   margin-right: 100px;
+   word-spacing: 10px;
+   font-size: 25px;
+   /* line-height-step: 10; */
+}
+.about h1{
+    /* text-align: center; */
+    padding-left: 90px;
+}
+.about{
+    padding-top: 200px;
+}
+.skills{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.ski{
+    font-size: 40px;
+    height: auto;
+    width: auto;
+    /* border: 0.5px solid black; */
+}
+.projects{
+    display: flex;
+}
+#projectdet{
+    border:3px solid black;
+    border-radius: 8%;
+    height: 330px;
+    width: 500px;
+    padding: 6px 6px 6px 6px;
+    
+}
+#simon img{
+    height: 310px;
+    width: 480px;
+}
+#simon{
+    border:2px solid black;
+    height: 330px;
+    width: 500px;
+    border-radius: 8%;
+}
+.skills ul{
+    /* display: flex; */
+}
+#skillheading{
+    font-size: 40px;
+    padding-left: 150px;
+    /* text-align: center; */
+}
+.footer{
+    display: flex;
+    height: 50px;
+    width: auto;
+    
+}
+#me{
+    height: 30px;
+    width: 400px;
+}
+.conclude{
+    height: 30px;
+    width: 400px;
+}
+
+#education{
+    padding-left: 0px;
+}
+h1{
+     font-family: 'Poppins', sans-serif;
+     font-size: 40px;
+}
+#projectheading{
+    text-align: center;
+}
+#projsumm{
+    text-align: center;
+    font-size: 20px;
+}
+/* #contact{
+    text-align: center;
+    font-size: 45px;
+}
+#contactsumm{
+    text-align: center;
+}
+.contactform h1{
+    /* text-align: center; */
+/* } */
+/* .form{
+    display: flex;
+} */ 
+#username{
+    height: 35px;
+    width: 400px;
+    border-radius: 1%;
+    font-size: 20px;
+    background-color:#0D1117;
+}
+#email{
+    height: 35px;
+    width: 400px;
+    border-radius: 1%;
+    font-size: 20px;
+    background-color:#0D1117;
+}
+#personalinformation{
+    padding-bottom: 20px;
+}
+#emailofsender{
+    padding-bottom: 20px;
+}
+#subjectof{
+    padding-bottom: 20px;
+}
+#messageof{
+    padding-bottom: 20px;
+}
+#subject{
+    height: 45px;
+    width: 700px;
+    border-radius: 1%;
+    font-size: 20px;
+     background-color:#0D1117;
+}
+#message{
+    height: 100px;
+    width:1000px;
+    border-radius: 1%;
+    font-size: 30px;
+     background-color:#0D1117;
+    box-shadow: wheat;
+}
+.form {
+   
+    padding-left: 50px;
+    /* border: 2px solid wheat; */
+    
+}
+.contactform h1,h2{
+    padding-left: 50px;
+}
+.form div input{
+    background-color:antiquewhite;
+}
+.form div label{
+    font-size: 30px;
+}
+.contactform{
+    height: 700px;
+    width: 1200px;
+    border: 2px solid beige ;
+    border-radius: 5%;
+    padding-left: 0px;
+    margin-left: 50px;
+}
+.contactheading{
+    padding-left: 100px;
+}
+#submited{
+    height: 50px;
+    width: 180px;
+    /* padding-left: 200px; */
+    font-size: 30px;
+}
+.contactinformation p i{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.contactinformation h1,h2{
+    padding-left: 50px;
+}
+#education p,h1,h2,h3{
+    padding-left: 50px;
+}
+.copyrigth p {
+    padding-top: 200px;
+    text-align: center;
+}
